@@ -5,33 +5,33 @@ const Services = () => {
     <div class="bg-gray-100">
       <section class="relative overflow-hidden py-20">
         <div class="absolute inset-0">
-          <div class="absolute -left-32 top-0 w-[100%] h-full bg-green-100 rounded-[100px]"></div>
+          <div class="absolute -left-32 top-0 w-full h-full bg-green-100 rounded-[100px]"></div>
         </div>
 
   <div class="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
     <div class="grid sm:grid-cols-2 gap-8">
-      <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-sm">
+      <div class="bg-white/70 hover:bg-green-400 backdrop-blur rounded-2xl p-8 shadow-sm">
         <div class="text-green-500 text-4xl mb-4">💻</div>
         <h3 class="text-lg font-semibold mb-3">Web Development</h3>
         <p class="text-gray-500 text-sm">
           Web development is the art of creating engaging and visually appealing websites
         </p>
       </div>
-      <div class="bg-green-400 text-white rounded-2xl p-8 shadow-md">
+      <div class="bg-white/70 hover:bg-green-400 rounded-2xl p-8 shadow-md">
         <div class="text-4xl mb-4">🎨</div>
         <h3 class="text-lg font-semibold mb-3">UI/UX Analysis</h3>
-        <p class="text-sm opacity-90">
+        <p class="text-sm text-gray-500 opacity-90">
           Web development is the art of creating engaging and visually appealing websites
         </p>
       </div>
-      <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-sm">
+      <div class="bg-white/70 hover:bg-green-400 backdrop-blur rounded-2xl p-8 shadow-sm">
         <div class="text-green-500 text-4xl mb-4">📈</div>
         <h3 class="text-lg font-semibold mb-3">SEO Marketing</h3>
         <p class="text-gray-500 text-sm">
           Web development is the art of creating engaging and visually appealing websites
         </p>
       </div>
-      <div class="bg-white/70 backdrop-blur rounded-2xl p-8 shadow-sm">
+      <div class="bg-white/70 hover:bg-green-400 backdrop-blur rounded-2xl p-8 shadow-sm">
         <div class="text-green-500 text-4xl mb-4">✏️</div>
         <h3 class="text-lg font-semibold mb-3">Graphic Design</h3>
         <p class="text-gray-500 text-sm">
