@@ -5,7 +5,7 @@ const Services = () => {
     <div class="bg-gray-100">
       <section class="relative overflow-hidden py-20">
         <div class="absolute inset-0">
-          <div class="absolute -left-32 top-0 w-full h-full bg-green-100 rounded-[100px]"></div>
+          <div class="absolute top-0 w-full h-full bg-green-100 rounded-[100px]"></div>
         </div>
 
   <div class="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
