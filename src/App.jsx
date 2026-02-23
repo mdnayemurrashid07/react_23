@@ -1,9 +1,10 @@
 import React from 'react'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
-    <div className='bg-sky-500'>
-      App
+    <div>
+      <Projects/>
     </div>
   )
 }
