@@ -3,41 +3,74 @@ import React from 'react'
 const Projects = () => {
   return (
     <div>
-      <div>
-        <h1 className='text-5xl font-bold text-center mt-10 mb-10'>Our Latest Project</h1>
-        <ul className='flex justify-center items-center gap-20 text-xl mt-10 mb-10'>
-            <li className='text-[#7B7B7B] hover:text-[#06C279] cursor-pointer'>Mobile App</li>
-            <li className='text-[#7B7B7B] hover:text-[#06C279] cursor-pointer'>Web Development</li>
-            <li className='text-[#7B7B7B] hover:text-[#06C279] cursor-pointer'>UI/UX Design</li>
-            <li className='text-[#7B7B7B] hover:text-[#06C279] cursor-pointer'>Graphic Design</li>
-            <li className='text-[#7B7B7B] hover:text-[#06C279] cursor-pointer'>Motion Graphic</li>
-        </ul>
-        <div className='py-1 bg-black'></div>
+      <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-semibold text-gray-800">Our Latest Project</h2>
+        <div class="mt-6 flex justify-center gap-8 text-gray-500 font-medium">
+          <button class="hover:text-green-500">Mobile App</button>
+          <button class="hover:text-green-500">Web Development</button>
+          <button class="text-green-500 border-b-2 border-green-500 pb-2">
+            UI/UX Design
+          </button>
+          <button class="hover:text-green-500">Graphic Design</button>
+          <button class="hover:text-green-500">Motion Graphic</button>
+        </div>
+
+        <div class="border-b mt-10"></div>
       </div>
-      <div className='flex justify-between items-center'>
-        <div className="div_1">
-        <a href=''>
-            <img src='src/assets/Rectangle-1.png' alt='Rectangle-1'/>
-        </a>
-        <h1>Portfolio Landing Page</h1>
-        <p>Web development is the art of creating engaging and visually appealing websites </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="src/assets/Rectangle-1.png"
+               alt="Portfolio"
+               class="w-full h-64 object-cover"/>
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Portfolio Landing Page
+            </h3>
+            <p class="text-gray-500 mt-3 text-sm">
+              Web development is the art of creating engaging
+              and visually appealing websites
+            </p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="src/assets/Rectangle-1.png"
+               alt="Plant"
+               class="w-full h-64 object-cover"/>
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Plant Landing Page
+            </h3>
+            <p class="text-gray-500 mt-3 text-sm">
+              Web development is the art of creating engaging
+              and visually appealing websites
+            </p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+          <img src="src/assets/Rectangle-1.png"
+               alt="Real Estate"
+               class="w-full h-64 object-cover"/>
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Real Estate Landing Page
+            </h3>
+            <p class="text-gray-500 mt-3 text-sm">
+              Web development is the art of creating engaging
+              and visually appealing websites
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="div_2">
-        <a href=''>
-            <img src='src/assets/Rectangle-2.png' alt='Rectangle-1'/>
-        </a>
-        <h1>Plant Landing Page</h1>
-        <p>Web development is the art of creating engaging and visually appealing websites </p>
+      <div class="text-center mt-12">
+        <button class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-medium transition duration-300">
+          View All Projects
+        </button>
       </div>
-      <div className="div_3">
-        <a href=''>
-            <img src='src/assets/Rectangle-3.png' alt='Rectangle-1'/>
-        </a>
-        <h1>Real Estate Landing Page</h1>
-        <p>Web development is the art of creating engaging and visually appealing websites </p>
-      </div>
-      </div>
-      <button className='px-3 py-5 bg-[#06C279] text-white hover:bg-white hover:text-black font-bold rounded-2xl'>View All Products</button>
+
+    </div>
+  </section>
     </div>
   )
 }
